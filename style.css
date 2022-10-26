@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+main {
+    width: 21cm;
+    height: 29.7cm;
+    border-radius: 10px;    
+    display: flex;
+    margin: 50 auto;
+    box-shadow: 0px 0px 20px gray;
+    transition: 0.2s ease-in-out;
+}
+
+h1, h2, h3 {
+    color: darkblue;
+}
+
+.blue_side {
+    background-color: darkblue;
+    width: 5%; 
+    border-radius: 10px 0px 0px 10px;
+    
+}
+
+.left_side {
+    width: 40%;
+    padding: 10px;
+    background-color: rgb(223, 223, 223);
+}
+
+.left_side h2 {
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.image img {
+    width: 120;
+    height: 120;
+    border-radius: 50%;
+    background-color: rgb(184, 184, 184);
+}
+
+
+.image {
+    width: 120;
+    height: 120;
+    border-radius: 50%;
+    margin: 20 auto;
+}
+
+.border {
+    border-bottom: 1px solid darkblue;
+    margin-bottom: 10;
+    width: 100%;
+}
+
+.info ul {
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+.shdw {
+    padding: 0 10;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+
+
+.right_side {
+    width: 55%;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px;
+}
+
+.right_side .flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.date {
+    width: 30%;
+}
+
+.flex .ul_li {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.flex .ul_li h4 {
+    margin-bottom: 40px;
+
+}
+
+.flex .ul_li p {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.flex .ul_li ul {
+    margin: 0 0 40 40;
+}
+.flex2 {
+    display: flex;
+}
+
+.right_side .border {
+    margin-bottom: 30px;
+}
+
+.jsp {
+    width:40%;
+}
+
+#marge {
+    margin-bottom: 20px;
+    width: auto;
+}
+
+.ul_li2 h4 {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+
+/* HOVER */
+
+.shdw:hover{
+    padding: 20px 10px;
+    box-shadow: 0px 0px 20px rgb(105, 105, 105);
+}
+
+main:hover {
+    scale: 1.01;
+    box-shadow: 0px 0px 20px rgb(105, 105, 105);
+}
+
+@media print {
+    main {
+        width: 120%;
+    }
+}
